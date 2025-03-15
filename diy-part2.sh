@@ -24,7 +24,8 @@ sed -i 's/PATCHVER:=6.6/PATCHVER:=5.4/g' target/linux/x86/Makefile   # x86机型
 #./scripts/feeds clean
 #./scripts/feeds update -a
 #./scripts/feeds install -a
-
+#删除xray-core
+rm -rf feeds/small/xray-core
 #替换为新版本golang
 #rm -rf feeds/packages/lang/golang
 #git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
