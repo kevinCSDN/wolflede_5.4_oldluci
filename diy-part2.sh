@@ -33,6 +33,7 @@ rm -rf feeds/small/luci-app-openclash
 
 #删除luci/applications/luci-app-ksmbd
 rm -rf feeds/luci/applications/luci-app-ksmbd
+rm -rf feeds/package/lean/autosamba
 
 #git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 #./scripts/feeds install -a
