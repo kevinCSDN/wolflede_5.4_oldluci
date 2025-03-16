@@ -27,6 +27,10 @@ sed -i 's/PATCHVER:=6.6/PATCHVER:=5.4/g' target/linux/x86/Makefile   # x86机型
 
 #替换为新版本golang
 #rm -rf feeds/packages/lang/golang
+
+#删除small中的oc
+rm -rf feeds/small/luci-app-openclash
+
 #git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 #./scripts/feeds install -a
 # rm -rf feeds/packages/utils/runc/Makefile   # 临时删除run1.0.3
