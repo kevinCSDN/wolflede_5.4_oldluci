@@ -27,6 +27,7 @@ sed -i 's|^src-git luci https://github.com/coolsnowwolf/luci.git;openwrt-23.05$|
 rm -rf feeds/packages/lang/golang
 #git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 git clone https://github.com/kenzok8/golang -b 1.23 feeds/packages/lang/golang
+git clone https://github.com/vernesong/OpenClash package/openclash
 
 #克隆passwall环境插件
 #git clone https://github.com/xiaorouji/openwrt-passwall-packages package/helloworld
